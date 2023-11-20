@@ -43,7 +43,7 @@ def calcular_integral_paso_a_paso():
 
 def main():
     # Menú de opciones
-    st.title("Calculadora de Integrales")
+    st.title("La Callatrex")
     opcion = st.sidebar.selectbox("Selecciona una opción:", ["Calcular integral", "Responder pregunta", "Salir"], key="menu_option")
 
     if opcion == "Calcular integral":
